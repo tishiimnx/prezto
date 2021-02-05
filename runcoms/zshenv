@@ -9,3 +9,7 @@
 if [[ ( "$SHLVL" -eq 1 && ! -o LOGIN ) && -s "${ZDOTDIR:-$HOME}/.zprofile" ]]; then
   source "${ZDOTDIR:-$HOME}/.zprofile"
 fi
+
+# Customize
+export ZSH_CONF="$HOME/ws/setup.me/configs/zsh.conf"
+source "$ZSH_CONF/zshenv"
