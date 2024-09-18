@@ -21,7 +21,7 @@ version is **4.3.11**.
 
     ```console
     # git clone --recursive https://github.com/sorin-ionescu/prezto.git "${ZDOTDIR:-$HOME}/.zprezto"
-    git clone --recursive https://github.com/tishiimnx/prezto.git "${ZDOTDIR:-$HOME}/.zprezto"
+    git clone --recursive git@github.com:tishiimnx/prezto.git "${ZDOTDIR:-$HOME}/.zprezto"
     ```
 
     <details>
