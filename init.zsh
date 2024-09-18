@@ -165,7 +165,8 @@ function pmodload {
 # to rely on dirty hacks to force prezto into a directory. Additionally, it
 # needs to be done here because inside the pmodload function ${0:h} evaluates to
 # the current directory of the shell rather than the prezto dir.
-ZPREZTODIR=${0:h}
+# ZPREZTODIR=${0:h}
+export ZPREZTODIR=${0:h}
 
 # Source the Prezto configuration file.
 if [[ -s "${ZDOTDIR:-$HOME}/.zpreztorc" ]]; then
