@@ -9,3 +9,7 @@
 if [[ ( "$SHLVL" -eq 1 && ! -o LOGIN ) && -s "${ZDOTDIR:-$HOME}/.zprofile" ]]; then
   source "${ZDOTDIR:-$HOME}/.zprofile"
 fi
+
+# Customize to your needs...
+export ZSH_EXT_CONF="$HOME/setup.mac/conf"
+source "$ZSH_EXT_CONF/zshenv"
