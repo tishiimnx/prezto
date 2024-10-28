@@ -2,5 +2,3 @@
 *.zwc.old
 modules/*/cache.zsh
 contrib
-
-runcoms/zprofile
